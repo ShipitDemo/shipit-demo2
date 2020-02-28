@@ -10,3 +10,11 @@
   [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
   [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2020-02-28 13:03:52 -0500
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/diegomedina/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/diegomedina/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 23.3ms | Allocations: 484)
+Completed 200 OK in 44ms (Views: 29.4ms | ActiveRecord: 0.0ms | Allocations: 2925)
+
+
